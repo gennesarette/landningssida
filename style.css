@@ -1,0 +1,355 @@
+
+/* HERO PAGE */
+
+.hero {
+    height:840px;
+    background-image: url("images/hero.jpg");
+    background-size:cover;
+    background-position:top;
+}
+
+.navbar {
+    display:flex;
+    width:auto;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items:center;
+ }
+
+.links {
+    display:flex;
+    list-style-type: none;
+}
+
+.links li {
+    margin: 24px;
+}
+
+.links a {
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-decoration: none;   
+}
+
+.ctaHeader {
+    background-color: rgb(76, 100, 255);
+    border: none;
+    border-radius: 24px;
+    color: white;
+    padding: 8px 24px 6px;
+    display:inline-block;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight:500;
+    text-transform: uppercase;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.ctaHeader:hover {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 24px;
+    color:white;
+}
+
+.textHero {
+    display:flex;
+    justify-content: center;
+    width:auto;
+    padding: 1%;
+    font-family: "Roboto";
+    text-align: center;
+    text-transform:uppercase
+}
+
+.textHero h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+}
+
+.textHero p {
+    color:white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    width: auto;
+}
+
+.ctaHero {
+    display:flex;
+    justify-content: center;
+    background-color: rgb(76, 100, 255);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 32px 12px;
+    display:inline-block;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight:500;
+    text-transform: uppercase;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.ctaHero:hover {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 12px;
+    color:white;
+}
+
+/* ABOUT*/
+
+.about {
+    display: flex;
+    flex-direction:row;
+    height: 840px; 
+    width: auto;
+    align-items:center;
+    justify-content:center;
+    background-color: gainsboro;
+}
+
+.aboutImage {
+    display: grid;
+    place-items: center;
+    height: 840px;
+    width:780px;
+}
+
+.aboutText {
+    display: grid;
+    flex-direction:center;
+    height: 200px;
+    width: 600px;
+}
+
+.aboutTextContainer {
+    display: flex;
+    flex-direction:column;
+    height: 70px;
+    font-family: "Roboto";
+    text-align: right;
+}
+
+.aboutTextContainer h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+    line-height: 130%;
+    margin: 0 0;
+}
+
+.aboutTextContainer h3 {
+    color:gray;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    line-height: 130%;
+    margin: 0 0;
+}   
+
+.aboutTextContainer p {
+    color:black;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: left;
+    line-height: 150%;
+    margin: 0 0 ;
+}
+
+/* RECOMMENDATION */
+
+.recommendation {
+    display: flex;
+    flex-direction:column;
+    height: 950px; 
+    width: auto;
+    align-items:center;
+    justify-content:center;
+}
+
+.recommendationTitle h2 {
+    color: black;
+    height: 140px;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+}
+
+.recommendationContainer {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 1400px;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-size: 24px;
+    text-align: center;
+}
+
+.recommendationStudent {
+    height:auto;
+    font-family: Roboto;
+    align-items:left;
+    justify-content:left;
+}
+
+.recommendationStudent h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.recommendationStudent p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.recommendationB {
+    display:flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 24px;
+    background-color: aquamarine;
+}
+
+.recommendationC {
+    display:flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 24px;
+    background-color: aquamarine;
+}
+
+/* REPEAT CTA */
+
+.repeatCTA {
+    display: flex;
+    flex-direction:column;
+    height: 420px; 
+    width: auto;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(76, 100, 255);
+}
+
+.repeatText1 h2 {
+    color: White;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+    line-height: 130%;
+    font-family: "Roboto";
+}
+
+.repeatText2 p {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    line-height: 130%;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.ctaRepeat {
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 8px;
+    padding: 12px 32px 12px;
+    display:inline-block;
+    font-family: "Roboto";
+    color: white;
+    font-size: 24px;
+    font-weight:500;
+    text-transform: uppercase;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.ctaRepeat:hover {
+    background-color: white;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 12px;
+    color:black;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction:row;
+    height: 520px; 
+    align-items:center;
+    justify-content:space-between;
+    background-color: darkslategrey
+}
+
+.footerContainer1 {
+    display:flex;
+    flex-direction:row;
+    width: 400px;
+}
+
+.space {
+    width:180px;
+}
+
+.footerLinks {
+    display:flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+
+.footerLinks li {
+    margin: 8px;
+}
+
+.footerContainer2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:300px;
+    font-family: "Roboto";
+    color: white;
+} 
+
+.contact p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.address p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footerContainer3 {
+    width: 400px;
+}
